@@ -1,6 +1,19 @@
 body {
   font-family: system-ui;
   background: #f06d06;
-  color: grey;
+  color: white;
   text-align: center;
+}
+
+.rojo{
+	color:red;
+}
+.azul{
+	color:blue;
+	font-size: 100px;
+}
+
+#geeks {
+    font-style:bold;
+    font-size:20px;
 }
