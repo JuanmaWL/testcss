@@ -1,4 +1,6 @@
-p.ejemplo{
-    color: white;
-    text-shadow: 2px 2px 4px #000000;   
+body {
+  font-family: system-ui;
+  background: #f06d06;
+  color: white;
+  text-align: center;
 }
