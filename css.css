@@ -7,7 +7,7 @@ body {
 	color:red;
 }
 .azul{
-	color:blue;
+	color:blue !important;
 	font-size: 40px;
 }
 #geeks {
