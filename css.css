@@ -11,12 +11,16 @@
 }
 
 .gadget-title{
-	color: red !important;	
+	color: red !important;
+	font-size: 15px;
+	font-style: bold;
+	position:center;
+	text-align: center;
 }
 
 gridster-item{
 	border-color: green !important;
-	border-radius: 10px !important;
+	border-radius: 15px !important;
 	border-style: solid !important;	
 }
 
