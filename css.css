@@ -1,17 +1,16 @@
-/*  styles override */
-html, body {
- font-family: Soho, Helvetica, Arial, sans-serif!important;
- color: #333333;
- -webkit-font-smoothing: subpixel-antialiased;
- -webkit-font-kerning: none;
-         font-kerning: none;
- background: #f0f5f8; 
+body {  
+  background: orange;
+  color: white;
+  text-align: center;
 }
-
-
-.m--bg-brand   { background-color: rgba(120,116,180,1)  !important;}
-.m--bg-primary { background-color: rgba(99,159,203,1)   !important;}
-.m--bg-success { background-color: rgba(121,197,180,1)  !important;}
-.m--bg-warning { background-color: rgba(255,234,128,1)  !important;}
-.m--bg-danger  { background-color: rgba(232,138,162,1)  !important;}
-.m--bg-info    { background-color: rgba(177,207,229,1)  !important;}
+.rojo{
+	color:red;
+}
+.azul{
+	color:blue;
+	font-size: 80px;
+}
+#geeks {
+    font-style:bold;
+    font-size:25px;
+}
