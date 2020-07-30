@@ -1,14 +1,13 @@
 body {  
   background: orange;
-  color: white;
-  text-align: center;
+  color: white;  
 }
 .rojo{
 	color:red;
 }
 .azul{
 	color:blue;
-	font-size: 80px;
+	font-size: 40px;
 }
 #geeks {
     font-style:bold;
