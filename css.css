@@ -5,21 +5,21 @@
 	color:blue;
 	font-size: 40px;
 }
-#geeks {
-    font-style:bold;
-    font-size:25px;
-}
 
 .gadget-title{	
 	font-size: 15px;
 	font-style: bold;
 	position:center;
 	text-align: center;
+	animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2s; /* don't forget to set a duration! */
+	
 }
 
 gridster-item{
-	border-color: green !important;
-	border-radius: 15px !important;
+	border-color: rgb(0, 174, 255) !important;
+	border-radius: 10px !important;
+	border-width: 10px !important;
 	border-style: solid !important;	
 }
 
