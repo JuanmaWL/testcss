@@ -10,7 +10,7 @@
 	font-size: 15px;
 	font-style: bold;
 	position:center;
-	color: white;
+	color: white !important;
 	text-align: center;
 	animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
   	animation-duration: 2.5s; /* don't forget to set a duration! */
@@ -20,6 +20,11 @@
 .widget-header{
 	background: rgb(0, 174, 255) !important;
 }
+
+.md-icon{
+	border-radius: 70% !important;
+}
+
 
 gridster-item{
 	border-color: rgb(0, 174, 255) !important;
