@@ -1,39 +1,65 @@
-.rojo{
-	color:red;
-}
-.azul{
-	color:blue;
-	font-size: 40px;
-}
-
-.gadget-title{	
-	font-size: 15px;
-	font-style: bold;
-	position:center;
-	color: white !important;
-	text-align: center;
-	animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
-  	animation-duration: 2.5s; /* don't forget to set a duration! */
-	
+/*Títulos y bordes de paneles*/
+.gadget-title {
+	font-family: neo sans regular;
+	color: #999999;
+	font-size: 16px;
+	font-weight: normal;
 }
 
-.widget-header{
-	background: rgb(0, 174, 255) !important;
-}
-
-.md-icon{
-	border-radius: 70% !important;
+gridster-item 
+.element.style{
+	border-width: 1px;
+	border-color: #d8d8d8;
+	border-radius: 8px;
 }
 
 
-gridster-item{
-	border-color: rgb(0, 174, 255) !important;
-	border-radius: 5px !important;
-	border-width: 5px !important;
-	border-style: solid !important;	
-	box-shadow: 10px 15px lightgrey !important;
+/*Estilos checks deseleccionado y seleccionado*/
+.md-checkbox .md-icon{
+	width: 16px;
+	height: 16px;
+	border-width: 1px;
+	border-radius: 0px;
+	border-color: #cccccc;
+}
+
+md-checkbox.md-checked .md-icon {
+	background-color: 
+}
+
+md-checkbox.md-checked .md-icon{
+	border-color: #d8d8d8;
+}
+
+.md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon{
+	background-color: #ffffff;
+}
+
+md-checkbox.md-checked .md-icon:after{
+	width: 6px;
+	height: 12px;
 }
 
 
+md-checkbox.md-default-theme.md-checked .md-icon:after, md-checkbox.md-checked .md-icon:after{
+	border-color: #3F8CC1;
+}
+
+md-checkbox.md-checked .md-icon:after{
+	top: 0;
+	width: 7px;
+	height: 14px;
+	border-width: 4px;
+}
 
 
+/*Color de fondo para los elementos seleccionados en una tabla*/
+table.md-table.md-row-select tbody.md-body>tr.md-row.md-selected{
+	background-color: #d2eff1;
+}
+
+
+/*Desplegables*/
+md-option {
+	height: 30px;
+}
