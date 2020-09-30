@@ -1,65 +1,39 @@
-/*Títulos y bordes de paneles*/
-.gadget-title {
-	font-family: neo sans regular !important;
-	color: #999999 !important;
-	font-size: 16px !important;
-	font-weight: normal !important;
+.rojo{
+	color:red;
+}
+.azul{
+	color:blue;
+	font-size: 40px;
 }
 
-gridster-item 
-.element.style{
-	border-width: 1px !important;
-	border-color: #d8d8d8 !important;
-	border-radius: 8px !important;
+.gadget-title{	
+	font-size: 15px;
+	font-style: bold;
+	position:center;
+	color: white !important;
+	text-align: center;
+	animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2.5s; /* don't forget to set a duration! */
+	
 }
 
-
-/*Estilos checks deseleccionado y seleccionado*/
-.md-checkbox .md-icon{
-	width: 16px !important;
-	height: 16px !important;
-	border-width: 1px !important;
-	border-radius: 0px !important;
-	border-color: #cccccc !important;
+.widget-header{
+	background: rgb(0, 174, 255) !important;
 }
 
-md-checkbox.md-checked .md-icon {
-	background-color: 
-}
-
-md-checkbox.md-checked .md-icon{
-	border-color: #d8d8d8 !important;
-}
-
-.md-checkbox.md-default-theme.md-checked .md-icon, md-checkbox.md-checked .md-icon{
-	background-color: #ffffff !important;
-}
-
-md-checkbox.md-checked .md-icon:after{
-	width: 6px !important;
-	height: 12px !important;
+.md-icon{
+	border-radius: 70% !important;
 }
 
 
-md-checkbox.md-default-theme.md-checked .md-icon:after, md-checkbox.md-checked .md-icon:after{
-	border-color: #3F8CC1 !important;
-}
-
-md-checkbox.md-checked .md-icon:after{
-	top: 0 !important;
-	width: 7px !important;
-	height: 14px !important;
-	border-width: 4px !important;
+gridster-item{
+	border-color: rgb(0, 174, 255) !important;
+	border-radius: 5px !important;
+	border-width: 5px !important;
+	border-style: solid !important;	
+	box-shadow: 10px 15px lightgrey !important;
 }
 
 
-/*Color de fondo para los elementos seleccionados en una tabla*/
-table.md-table.md-row-select tbody.md-body>tr.md-row.md-selected{
-	background-color: #d2eff1 !important;
-}
 
 
-/*Desplegables*/
-md-option {
-	height: 30px !important;
-}
