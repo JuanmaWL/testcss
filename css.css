@@ -117,7 +117,7 @@ button._md-nav-button.md-accent.md-button.md-ink-ripple:hover {
 }
 
 md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
-    background-color: rgb(255 255 255) !important;
+    /*background-color: rgb(255 255 255) !important; */
     color: rgba(255,255,255,0.87) !important;
 }
 
